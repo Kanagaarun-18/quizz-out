@@ -17,7 +17,7 @@ app.listen(PORT, () => {
 });
 
 app.use(cors({
-  origin: "*",   // temporary for testing
+  origin: "https://quizz-out.vercel.app/",   // temporary for testing
   credentials: true
 }));
 app.use(express.json());

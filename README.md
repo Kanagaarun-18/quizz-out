@@ -48,11 +48,3 @@ A full-stack quiz platform similar to Wayground/Kahoot where users can:
 - Name + Score + Time taken
 - Sorted ranking system
 
----
-
-## 🛠️ Setup Instructions
-
-### 1. Clone repo
-```bash
-git clone <repo-url>
-cd project
