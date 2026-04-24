@@ -11,13 +11,8 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, () => {
-  console.log(`Server running on ${PORT}`);
-});
-
 app.use(cors({
-  origin: "https://quizz-out.vercel.app/",   // temporary for testing
+  origin: "*",   // temporary for testing
   credentials: true
 }));
 app.use(express.json());
